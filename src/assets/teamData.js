@@ -51,8 +51,9 @@ export const teamData = [
       "Implement infrastructure to test trading strategies.",
       "Optimize code through multithreading and accurate code profiling.",
     ],
-    teamLeader: "Benjamin Nguyen",
+    teamLeader: "Vaasu Kakuturu",
     teamMembers: [
+      "Benjamin Nguyen",
       "Anish Thiriveedhi",
       "Anuj Patel",
       "Bobby Zhou",
@@ -60,7 +61,6 @@ export const teamData = [
       "James Flaherty",
       "Justin Kirkland",
       "Shahith T",
-      "Vaasu Kakuturu",
     ],
   },
   {
