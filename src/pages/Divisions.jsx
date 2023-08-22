@@ -8,7 +8,7 @@ import { useInView } from "react-intersection-observer";
 import { useEffect, useRef } from "react";
 
 export default function Divisions() {
-  const [currTeam, setCurr] = useState(-1);
+  const [currTeam, setCurr] = useState(0);
 
   var researchColor =
     currTeam === 0
@@ -65,8 +65,8 @@ export default function Divisions() {
   }, [controls, inView]);
 
   return (
-    <div>
-      <div className="px-5 lg:px-20 mb-20">
+    <div className="mt-20">
+      <div className="px-5 lg:px-20">
         <motion.div
           ref={ref}
           initial="initial"

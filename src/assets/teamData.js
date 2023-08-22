@@ -34,6 +34,7 @@ export const teamData = [
       "Myles Phung",
       "John Zammit",
       "Jimmy Huang",
+      "Pratham Inamdar",
       "Hassan Shafi",
       "Sahith Bodla",
     ],

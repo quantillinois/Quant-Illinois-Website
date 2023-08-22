@@ -10,8 +10,8 @@ function App() {
     <div className='selection:bg-slate-300'>
       <Home />
       <Overview />
-      <Sponsors />
       <Divisions />
+      <Sponsors />
     </div>
   )
 }
