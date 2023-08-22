@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import Overview from './pages/Overview'
 import Sponsors from './pages/Sponsors'
 import Divisions from './pages/Divisions'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Overview />
       <Divisions />
       <Sponsors />
+      <Footer />
     </div>
   )
 }
