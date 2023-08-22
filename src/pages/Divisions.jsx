@@ -66,7 +66,7 @@ export default function Divisions() {
 
   return (
     <div>
-      <div className="px-20 mb-20">
+      <div className="px-5 lg:px-20 mb-20">
         <motion.div
           ref={ref}
           initial="initial"
@@ -84,7 +84,7 @@ export default function Divisions() {
           variants={text_slide_in}
           transition={{ duration: 0.2, delay: 0.2 }}
         >
-          <p className="text-4xl font-medium text-justify">
+          <p className="text-xl lg:text-4xl font-medium text-justify">
             We use a combination of quantitative and
             qualitative tools to uncover independent, hard-to-find sources of
             return across global public and private markets. In order to
