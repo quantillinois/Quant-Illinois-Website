@@ -2,7 +2,7 @@ import React from "react";
 import TeamOverview from "../components/TeamOverview";
 
 import { useState } from "react";
-import { teamData } from "../assets/TeamData";
+import { teamData } from "../assets/teamData";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect, useRef } from "react";
