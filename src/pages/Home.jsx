@@ -1,6 +1,6 @@
 import logo from "../assets/full-logo.png";
 // import Navbar from "../HomePageComponents/NavbarComponents/Navbar";
-import Discord from '../components/Discord'
+import { BsDiscord } from 'react-icons/bs';
 import { motion } from "framer-motion";
 import React, { useState, useEffect, useRef } from 'react'
 import TRUNK from "vanta/dist/vanta.trunk.min";
@@ -42,24 +42,28 @@ export default function Home() {
 
   return (
     <div className="h-screen flex" ref={vantaRef}>
-      <motion.div
-        className="absolute left-[67px] top-[44px] h-[59.97px] w-[200px]"
-        initial="initial"
-        animate="animate"
-        variants={text_slide_in}
-        transition={{ duration: 0.2 }}
-      >
-        <img src={logo} alt="Logo" />
-      </motion.div>
-      <motion.div
-        className="absolute right-[50px] top-[50px] size-[100px]"
-        initial="initial"
-        animate="animate"
-        variants={text_slide_in}
-        transition={{ duration: 0.2 }}
-      >
-          <Discord/>
-      </motion.div>
+      <div className="w-screen flex z-10 justify-between">
+        <motion.div
+          className="w-48 m-10"
+          initial="initial"
+          animate="animate"
+          variants={text_slide_in}
+          transition={{ duration: 0.2 }}
+        >
+          <img src={logo} alt="Logo" />
+        </motion.div>
+        <motion.div
+          className="m-10"
+          initial="initial"
+          animate="animate"
+          variants={text_slide_in}
+          transition={{ duration: 0.2 }}
+        >
+          <a href="https://discord.gg/xnjdcgteKR" target="_blank" rel="noreferrer">
+            <BsDiscord className="text-4xl hover:text-primary duration-200" />
+          </a>
+        </motion.div>
+      </div>
 
       <motion.div
         className="absolute left-[67px] bottom-[5vh] right-[32vw]"
@@ -68,7 +72,7 @@ export default function Home() {
         variants={text_slide_in}
         transition={{ duration: 0.2, delay: 0.4 }}
       >
-        <p className="font-Inter text-[4rem] font-medium leading-[5rem]">
+        <p className="text-4xl lg:text-6xl font-medium">
           We are <span className="text-primary">Quant</span> at <span className="text-orange-600">Illinois</span>, a student-run
           quantitative finance and HFT organization at UIUC.
         </p>

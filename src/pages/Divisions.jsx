@@ -1,6 +1,6 @@
 import React from "react";
-import Headline from "../Desktop01Components/Headline";
-import TeamOverview from "../Desktop04Components/TeamOverview";
+import TeamOverview from "../components/TeamOverview";
+
 import { useState } from "react";
 import { teamData } from "../assets/TeamData";
 import { motion, useAnimation } from "framer-motion";
@@ -12,19 +12,19 @@ export default function Divisions() {
 
   var researchColor =
     currTeam === 0
-      ? teamData[currTeam].teamColorText + " decoration-solid"
+      ? teamData[currTeam].textColor + " decoration-solid"
       : "text-black decoration-dotted";
   var tradingColor =
     currTeam === 1
-      ? teamData[currTeam].teamColorText + " decoration-solid"
+      ? teamData[currTeam].textColor + " decoration-solid"
       : "text-black decoration-dotted";
   var softwareColor =
     currTeam === 2
-      ? teamData[currTeam].teamColorText + " decoration-solid"
+      ? teamData[currTeam].textColor + " decoration-solid"
       : "text-black decoration-dotted";
   var operationsColor =
     currTeam === 3
-      ? teamData[currTeam].teamColorText + " decoration-solid"
+      ? teamData[currTeam].textColor + " decoration-solid"
       : "text-black decoration-dotted";
 
   function setCurrTeam(num) {
@@ -66,7 +66,7 @@ export default function Divisions() {
 
   return (
     <div>
-      <div id="Divisions">
+      <div className="px-20 mb-20">
         <motion.div
           ref={ref}
           initial="initial"
@@ -74,21 +74,21 @@ export default function Divisions() {
           variants={text_slide_in}
           transition={{ duration: 0.2 }}
         >
-          <Headline text="4. Divisions" />
+          <h1 className="text-center text-7xl mb-10 font-medium text-primary">Divisions</h1>
         </motion.div>
 
         <motion.div
-          className="mr-[200px] pl-[67px] pb-[35px]"
+          className=""
           initial="initial"
           animate={controls}
           variants={text_slide_in}
           transition={{ duration: 0.2, delay: 0.2 }}
         >
-          <p className="text-[2.25rem] font-medium leading-[2.75rem] ">
-            &emsp;&emsp;&emsp;&emsp;We use a combination of quantitative and
+          <p className="text-4xl font-medium text-justify">
+            We use a combination of quantitative and
             qualitative tools to uncover independent, hard-to-find sources of
             return across global public and private markets. In order to
-            maximize efficiency, our work is split accross four divisions:{" "}
+            maximize efficiency, our work is split across four divisions:{" "}
             <span
               onClick={setCurrTeam(0)}
               className={
@@ -132,7 +132,7 @@ export default function Divisions() {
           </p>
         </motion.div>
         <div ref={teamOverviewRef}>
-          {currTeam !== -1 && <TeamOverview teamData={teamData[currTeam]} />}
+          {currTeam !== -1 && <TeamOverview data={teamData[currTeam]} />}
         </div>
       </div>
     </div>
