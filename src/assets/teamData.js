@@ -10,11 +10,15 @@ export const teamData = [
     bullets: [],
     teamLeader: ["Eric Zhu"],
     teamMembers: [
-      "Andrew Yatzkan",
-      "Ray Li",
-      "Anuj Singla",
+      "Blaine Hill",
       "Ethan Matthew",
       "Nishk Patel",
+      "Nic Soto",
+      "Kamin Atsavasirilert",
+      "Jiaqi He",
+      "Rishab Tirupathi",
+      "Romina Pliner",
+      "Shaunak Fadnis"
     ],
   },
   {
@@ -84,7 +88,6 @@ export const teamData = [
     teamMembers: [
       "Jake Kalinovskiy",
       "Agrim Kataria",
-      "Dhruv Patel",
       "Jasmine Wang",
       "Jessica Ho",
       "Keshav Trikha",

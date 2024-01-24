@@ -9,9 +9,9 @@ function Leadership() {
         <LeadershipCard img="abhay.jpg" name="Abhay Benoy" position="President" link="https://www.linkedin.com/in/abhay-benoy/"/>
         <LeadershipCard img="as.jpg" name="Achintya Sanjay" position="Head of Operations"/>
         <LeadershipCard img="bng.jpg" name="Benjamin Nguyen" position="Head of Software"/>
-        {/* <LeadershipCard img="abt.jpg" name="Abhi Thanvi" position="Head of Research"/> */}
-        {/* <div className='md:col-span-1 hidden lg:block'></div> */}
-        <LeadershipCard img="zammit.jpg" name="John Zammit" position="Co-Head of Trading"/>
+        <LeadershipCard img="zhu.jpg" name="Eric Zhu" position="Head of Research"/>
+        <div className='hidden lg:block'></div>
+        <LeadershipCard img="zammit.jpg" name="John Zammit" position="Co-Head of Trading" className="col-span-2 ms-12"/>
         {/* <LeadershipCard img="as.jpg" name="Myles Phung" position="Co-Head of Trading"/> */}
       </div>
       {/* <div className='flex justify-around w-full mb-6'>
