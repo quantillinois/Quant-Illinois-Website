@@ -5,7 +5,7 @@ function LeadershipCard({img, name, position, link}) {
     <div className='flex flex-col items-center'>
       {/* Your component content goes here */}
       <a href={link}>
-      <img src={"src/assets/people/leadership/"+img} alt={name}
+      <img src={img} alt={name}
           className="object-fit w-48 h-48 rounded-full border-2 hover:border-primary hover:p-1 transition-all duration-500 ease-in-out cursor-pointer"
       ></img>
       </a>

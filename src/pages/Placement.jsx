@@ -2,10 +2,20 @@ import { Carousel } from 'flowbite-react';
 import { BsArrowRight } from "react-icons/bs";
 import { MdArrowForwardIos, MdArrowBackIos } from "react-icons/md";
 
+import imc from '../assets/companies/imc.png'
+import citadel from '../assets/companies/citadel.png'
+import jump from '../assets/companies/jump.png'
+import optiver from '../assets/companies/optiver.png'
+import akuna from '../assets/companies/akuna.png'
+import millenium from '../assets/companies/millenium.png'
+import uber from '../assets/companies/uber.png'
+import bloomberg from '../assets/companies/bloomberg.png'
+
+
 function PlacementImage({src}) {
   return (
     <div className='w-full h-full p-5'>
-      <img src={"src/assets/companies/"+src} className='w-full h-full object-contain my-auto mx-auto'></img>
+      <img src={src} className='w-full h-full object-contain my-auto mx-auto'></img>
     </div>
   )
 
@@ -19,17 +29,17 @@ export default function Placement() {
       <div className='h-96 mx-24'>
         <Carousel pauseOnHover leftControl={<MdArrowBackIos className='text-3xl text-zinc-500'/>} rightControl={<MdArrowForwardIos className='text-3xl text-zinc-500'/>}>
           <div className={carouselSlideClass}>
-            <PlacementImage src="citadel.png" />
-            <PlacementImage src="imc.png" />
-            <PlacementImage src="jump.png" />
-            <PlacementImage src="optiver.png" />
+            <PlacementImage src={citadel} />
+            <PlacementImage src={imc} />
+            <PlacementImage src={jump} />
+            <PlacementImage src={optiver} />
           </div>
 
           <div className={carouselSlideClass}>
-            <PlacementImage src="akuna.png" />
-            <PlacementImage src="millenium.png" />
-            <PlacementImage src="uber.png" />
-            <PlacementImage src="bloomberg.png" />
+            <PlacementImage src={akuna} />
+            <PlacementImage src={millenium} />
+            <PlacementImage src={uber} />
+            <PlacementImage src={bloomberg} />
           </div>
           {/* <img src="https://flowbite.com/docs/images/carousel/carousel-2.svg" alt="..." />
           <img src="https://flowbite.com/docs/images/carousel/carousel-3.svg" alt="..." />
