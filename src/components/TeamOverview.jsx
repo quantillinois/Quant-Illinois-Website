@@ -1,4 +1,4 @@
-import {BsArrowReturnRight, BsArrowRight} from "react-icons/bs";
+import {BsArrowReturnRight, BsArrowRight, BsXLg} from "react-icons/bs";
 
 export default function TeamOverview({data}) {
   return (
@@ -20,16 +20,24 @@ export default function TeamOverview({data}) {
       </div>
 
       <div className="col-span-4 lg:col-span-1 bg-[#D4D4D4] rounded-lg p-5 lg:p-10 mt-10 flex flex-col">
-        <p className={"text-xl lg:text-3xl " + data.textColor}>{data.teamLeader}</p>
+        {data.teamLeader.map((leader) => (
+        <p className={"text-xl lg:text-3xl " + data.textColor}>{leader}</p>
+        ))}
         {data.teamMembers.map((member) => (
           <p className="text-xl lg:text-3xl">{member}</p>
         ))}
         <div className="grow"></div>
         <div className="flex justify-between mt-5">
-          <p className="text-2xl my-auto">Applications Open</p>
+          <p className="text-2xl my-auto">Applications Closed</p>
+          { data.status ?
           <a className={"rounded-lg p-3 cursor-pointer " + data.bgColor} href="https://docs.google.com/forms/d/1xsn1GN8pieTNQodYZEF0OpVanJMBKRfq0a26iOOyaDk/edit">
           <BsArrowRight className="text-5xl hover:-rotate-45 duration-200"/>
           </a>
+          :
+           <div className={"rounded-lg p-3 " + data.bgColor}>
+            <BsXLg className="text-5xl"/>
+          </div>
+          }
         </div>
       </div>
     </div>

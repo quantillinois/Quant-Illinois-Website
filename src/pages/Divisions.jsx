@@ -132,7 +132,7 @@ export default function Divisions() {
           </p>
         </motion.div>
         <div ref={teamOverviewRef}>
-          {currTeam !== -1 && <TeamOverview data={teamData[currTeam]} />}
+          {currTeam !== -1 && <TeamOverview data={teamData[currTeam]}/>}
         </div>
       </div>
     </div>
