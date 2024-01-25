@@ -22,11 +22,11 @@ function PlacementImage({src}) {
 }
 
 export default function Placement() {
-  const carouselSlideClass = "bg-transparent grid md:grid-rows-2 md:grid-cols-2 lg:grid-rows-1 lg:grid-cols-4 w-full px-24"
+  const carouselSlideClass = "bg-transparent grid grid-rows-4 grid-cols-1 md:grid-rows-2 md:grid-cols-2 lg:grid-rows-1 lg:grid-cols-4 h-full w-full px-24"
   return (
     <div className='h-auto bg-zinc-200 py-10 my-10'>
       <h1 className="text-center text-7xl font-medium text-primary mb-12 lg:mb-0">Placement</h1>
-      <div className='h-96 mx-24'>
+      <div className='h-96 md:mx-24'>
         <Carousel pauseOnHover leftControl={<MdArrowBackIos className='text-3xl text-zinc-500'/>} rightControl={<MdArrowForwardIos className='text-3xl text-zinc-500'/>}>
           <div className={carouselSlideClass}>
             <PlacementImage src={citadel} />

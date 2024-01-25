@@ -2,6 +2,7 @@ import imc from '../assets/companies/imc.png'
 import drw from '../assets/companies/drw.png'
 import citadel from '../assets/companies/citadel.png'
 import jump from '../assets/companies/jump.png'
+import tam from '../assets/companies/tam.webp'
 
 export default function Sponsors() {
   return (
@@ -20,7 +21,7 @@ export default function Sponsors() {
 
       <h1 className="text-center text-7xl my-10 font-medium text-primary">Club Partners</h1>
       <div className="flex justify-center gap-10 align-middle my-20">
-        <a href="" className="w-1/2 object-contain my-auto"><img src="src/assets/companies/tam.webp" alt="IMC Trading" /></a>
+        <a href="" className="w-1/2 object-contain my-auto"><img src={tam} alt="IMC Trading" /></a>
       </div>
     </div>
   )

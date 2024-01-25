@@ -72,7 +72,7 @@ export default function Home() {
         variants={text_slide_in}
         transition={{ duration: 0.2, delay: 0.4 }}
       >
-        <p className="text-4xl lg:text-6xl font-medium">
+        <p className="text-3xl md:text-4xl lg:text-6xl font-medium">
           We are <span className="text-primary">Quant</span> at <span className="text-orange-600">Illinois</span>, a student-run
           quantitative finance and HFT organization at UIUC.
         </p>
