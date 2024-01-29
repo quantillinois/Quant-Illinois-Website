@@ -28,12 +28,12 @@ export default function TeamOverview({data}) {
         ))}
         <div className="grow"></div>
         <div className="flex justify-between mt-5">
-          { data.status ?
+          { data.applicationStatus ?
           <p className="text-2xl my-auto">Applications Open</p>
           :
           <p className="text-2xl my-auto">Applications Closed</p>
           }
-          { data.status ?
+          { data.applicationStatus ?
           <a className={"rounded-lg p-3 cursor-pointer " + data.bgColor} href="https://forms.gle/xsxXUzP2v5Ft7tj39">
           <BsArrowRight className="text-5xl hover:-rotate-45 duration-200"/>
           </a>
