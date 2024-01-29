@@ -62,12 +62,9 @@ export const teamData = [
     teamLeader: ["Benjamin Nguyen"],
     teamMembers: [
       "Anish Thiriveedhi",
-      "Anuj Patel",
-      "Bobby Zhou",
-      "Charlene Huang",
-      "James Flaherty",
-      "Justin Kirkland",
-      "Shahith T",
+      "Zachary Zhang",
+      "Julie Lima",
+      "Jessica Pei",
     ],
   },
   {
@@ -87,10 +84,8 @@ export const teamData = [
     teamLeader: ["Achintya Sanjay"],
     teamMembers: [
       "Jake Kalinovskiy",
-      "Agrim Kataria",
-      "Jasmine Wang",
       "Jessica Ho",
-      "Keshav Trikha",
+      "Anuraag Aravindan"
     ],
   },
 ];

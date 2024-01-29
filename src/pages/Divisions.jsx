@@ -8,7 +8,7 @@ import { useInView } from "react-intersection-observer";
 import { useEffect, useRef } from "react";
 
 export default function Divisions() {
-  const [currTeam, setCurr] = useState(0);
+  const [currTeam, setCurr] = useState(-1);
 
   var researchColor =
     currTeam === 0
