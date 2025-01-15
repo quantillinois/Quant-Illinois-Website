@@ -88,7 +88,7 @@ export default function Divisions() {
             We use a combination of quantitative and
             qualitative tools to uncover independent, hard-to-find sources of
             return across global public and private markets. In order to
-            maximize efficiency, our work is split across four divisions:{" "}
+            maximize efficiency, our work is split across two divisions:{" "}
             <span
               onClick={setCurrTeam(0)}
               className={
@@ -96,9 +96,9 @@ export default function Divisions() {
                 researchColor
               }
             >
-              Research
+              Trading
             </span>
-            ,{" "}
+            {" "}and{" "}
             <span
               onClick={setCurrTeam(1)}
               className={
@@ -106,9 +106,10 @@ export default function Divisions() {
                 tradingColor
               }
             >
-              Trading
-            </span>
+              Software
+            {/* </span>
             ,{" "}
+            and{" "}
             <span
               onClick={setCurrTeam(2)}
               className={
@@ -116,8 +117,8 @@ export default function Divisions() {
                 softwareColor
               }
             >
-              Software
-            </span>{" "}
+              Software */}
+            {/* </span>{" "}
             and{" "}
             <span
               onClick={setCurrTeam(3)}
@@ -126,7 +127,7 @@ export default function Divisions() {
                 operationsColor
               }
             >
-              Operations
+            Operations*/}
             </span>
             .
           </p>

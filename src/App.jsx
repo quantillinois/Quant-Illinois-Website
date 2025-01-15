@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Home from './pages/Home'
 import Overview from './pages/Overview'
 import Leadership from './pages/Leadership'
+import Events from './pages/Events'
 import Placement from './pages/Placement'
 import Sponsors from './pages/Sponsors'
 import Divisions from './pages/Divisions'
@@ -14,6 +15,7 @@ function App() {
       <Home />
       <Overview />
       <Leadership />
+      <Events />
       <Divisions />
       <Placement />
       <Sponsors />

@@ -1,6 +1,7 @@
 import logo from "../assets/full-logo.png";
 // import Navbar from "../HomePageComponents/NavbarComponents/Navbar";
-import { BsDiscord } from 'react-icons/bs';
+import { BsDiscord, BsArrowRight } from 'react-icons/bs';
+
 import { motion } from "framer-motion";
 import React, { useState, useEffect, useRef } from 'react'
 import TRUNK from "vanta/dist/vanta.trunk.min";
@@ -59,9 +60,15 @@ export default function Home() {
           variants={text_slide_in}
           transition={{ duration: 0.2 }}
         >
-          <a href="https://discord.gg/xnjdcgteKR" target="_blank" rel="noreferrer">
-            <BsDiscord className="text-4xl hover:text-primary duration-200" />
-          </a>
+          <div className="flex">
+            <a href="https://forms.gle/veU465tnB88JgnV16" className="flex text-2xl mr-7 hover:border-b-2 duration-150 border-black">
+              <p>Apply</p>
+              <BsArrowRight className="-rotate-45 mt-1"/>
+            </a>
+            <a href="https://discord.gg/xnjdcgteKR" target="_blank" rel="noreferrer">
+              <BsDiscord className="text-4xl hover:text-primary duration-200" />
+            </a>
+          </div>
         </motion.div>
       </div>
 
