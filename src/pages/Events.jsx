@@ -25,7 +25,7 @@ export default function Events() {
   return (
     <div className="h-auto px-5 lg:px-20 py-10 mx-auto bg-gradient-to-r from-[#48d1cc] to-blue-600 mt-10">
       <h1 className="text-center text-7xl mb-10 font-medium text-white">Events</h1>
-      <div className="grid grid-cols-3">
+      <div className="grid lg:grid-cols-3">
         {eventData.map((e) => (
           <EventCard {...e} />
         ))}

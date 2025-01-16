@@ -9,6 +9,7 @@ import john from "../assets/people/leadership/john.jpg"
 import nishk from "../assets/people/leadership/nishk.jpg"
 import zachary from "../assets/people/leadership/zachary.jpeg"
 import anuraag from "../assets/people/leadership/anuraag.jpeg"
+import james from "../assets/people/leadership/james.jpg"
 
 
 function Leadership() {
@@ -20,6 +21,7 @@ function Leadership() {
         <LeadershipCard img={ian} name="Ian Sornson" position="Software" link="https://www.linkedin.com/in/ian-sornson/"/>
         <LeadershipCard img={abhay} name="Abhay Benoy" position="Software" link="https://www.linkedin.com/in/abhay-benoy/"/>
         <LeadershipCard img={julie} name="Julie Lima" position="Software" link="https://www.linkedin.com/in/julielima/"/>
+        <LeadershipCard img={james} name="James Xu" position="Software" link="https://www.linkedin.com/in/xu-james/"/>
         {/* <div className='hidden lg:block'></div> */}
         <LeadershipCard img={eric} name="Eric Zhu" position="Trading" link="https://www.linkedin.com/in/zhueric2004/" />
         <LeadershipCard img={john} name="John Zammit" position="Trading" link="https://www.linkedin.com/in/johnchristopherzammit/" />
