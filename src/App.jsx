@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import Home from './pages/Home'
-import Overview from './pages/Overview'
-import Leadership from './pages/Leadership'
-import Events from './pages/Events'
-import Placement from './pages/Placement'
-import Sponsors from './pages/Sponsors'
-import Divisions from './pages/Divisions'
+import Home from './sections/Home'
+import Overview from './sections/Overview'
+import Leadership from './sections/Leadership'
+import Events from './sections/Events'
+import Placement from './sections/Placement'
+import Sponsors from './sections/Sponsors'
+import Divisions from './sections/Divisions'
 import Footer from './components/Footer'
 
 function App() {

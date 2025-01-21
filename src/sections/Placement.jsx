@@ -18,6 +18,12 @@ import google from '../assets/companies/google.png'
 import meta from '../assets/companies/meta.png'
 import netflix from '../assets/companies/netflix.png'
 import amazon from '../assets/companies/amazon.png'
+import drw from '../assets/companies/drw.png'
+import apple from '../assets/companies/apple.png'
+import virtu from '../assets/companies/virtu.svg'
+import stripe from '../assets/companies/stripe.png'
+import ctc from '../assets/companies/ctc.png'
+
 
 
 function PlacementImage({src}) {
@@ -47,13 +53,20 @@ export default function Placement() {
 
         <PlacementImage src={millenium} />
         <PlacementImage src={peak6} />
+        <PlacementImage src={drw} />
+        <PlacementImage src={virtu} />
+        
         <PlacementImage src={meta} />
         <PlacementImage src={netflix} />
-
         <PlacementImage src={google} />
-        <PlacementImage src={amazon} />
+        <PlacementImage src={apple} />
+        
+        <PlacementImage src={stripe} />
         <PlacementImage src={bloomberg} />
-        <PlacementImage src={uber} />
+        <PlacementImage src={ctc} />
+        <PlacementImage src={amazon} />
+
+        
 
       </div>
       {/* <div className='h-96 md:mx-24'>
