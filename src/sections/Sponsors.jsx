@@ -39,10 +39,10 @@ export default function Sponsors() {
       <h2 className="text-center text-md lg:text-xl font-medium mt-5">Interested in becoming a sponsor? Email us at <a className="text-secondary" href="mailto:corporate-outreach@quantillinois.com">corporate-outreach@quantillinois.com</a></h2>
 
 
-      <h1 className="text-center text-7xl mt-10 font-medium text-primary">Club Partners</h1>
+      {/* <h1 className="text-center text-7xl mt-10 font-medium text-primary">Club Partners</h1>
       <div className="flex justify-center gap-10 align-middle">
         <a href="https://tradersatmichigan.com/" className="object-contain w-1/2"><img src={tam} alt="Traders at Michigan" /></a>
-      </div>
+      </div> */}
     </div>
   )
 }

@@ -1,6 +1,7 @@
 import InfoSection from "../components/InfoSection"
 import scd from "../assets/scd.jpeg"
 import scdWide from "../assets/scdWide.jpeg"
+import infonight from "../assets/infosp25.jpeg"
 
 const infoSections = [
   {

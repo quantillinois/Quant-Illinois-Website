@@ -15,7 +15,7 @@ function EventCard({datetime, title, location, description, rsvpLink}) {
           <FaLocationDot className="text-lg mb-3 sm:mb-0 mt-1 mr-1 text-primary"/>
           <p>{location}</p>
           </span>
-          {rsvpLink ? <Button href={rsvpLink} >RSVP</Button> : <div className="h-10"></div>}
+          {rsvpLink ? <Button href={rsvpLink} >Apply</Button> : <div className="h-10"></div>}
         </div>
     </Card>
   );
