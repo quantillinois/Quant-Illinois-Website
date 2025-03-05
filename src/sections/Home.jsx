@@ -61,8 +61,12 @@ export default function Home() {
           transition={{ duration: 0.2 }}
         >
           <div className="flex">
-            <a href="https://forms.gle/veU465tnB88JgnV16" className="flex text-2xl mr-7 hover:border-b-2 duration-150 border-black">
+            {/* <a href="https://forms.gle/veU465tnB88JgnV16" className="flex text-2xl mr-7 hover:border-b-2 duration-150 border-black">
               <p>Apply</p>
+              <BsArrowRight className="-rotate-45 mt-1"/>
+            </a> */}
+            <a href="https://docs.google.com/forms/d/1pNieKAYjkxDe6Y2tVInZvtpNF_8WzsMueEYNscck6xE/edit" className="flex text-2xl mr-7 hover:border-b-2 duration-150 border-black">
+              <p>Trading Competition Application</p>
               <BsArrowRight className="-rotate-45 mt-1"/>
             </a>
             <a href="https://discord.gg/xnjdcgteKR" target="_blank" rel="noreferrer">
