@@ -65,7 +65,7 @@ export default function Home() {
               <p>Apply</p>
               <BsArrowRight className="-rotate-45 mt-1"/>
             </a> */}
-            <a href="https://docs.google.com/forms/d/1pNieKAYjkxDe6Y2tVInZvtpNF_8WzsMueEYNscck6xE/edit" className="flex text-2xl mr-7 hover:border-b-2 duration-150 border-black">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScRnzMc5rurnTm-KrG8Nfz5GIYYASH4_ZeZVYUtsQYLUo7rIw/viewform?usp=dialog" className="flex text-2xl mr-7 hover:border-b-2 duration-150 border-black">
               <p>Trading Competition Application</p>
               <BsArrowRight className="-rotate-45 mt-1"/>
             </a>
