@@ -24,7 +24,7 @@ export default function Overview() {
       <div className="text-center col-span-5 lg:col-span-2">
         <h1 className="text-6xl 2xl:text-7xl text-white font-semibold">What We Do</h1>
         <p className="text-lg 2xl:text-2xl text-white mt-6 text-left leading-relaxed w-2/3 lg:w-1/2 mx-auto">At Quant, our mission is to help students break into Quantitative Finance and High Frequency Trading. We partner with a multitude of leading firms in the field to help provide you the network, resources, and funds to conduct research and implement industry-relevant strategies and technologies.</p>
-        <img src={scdWide} alt="SCD" className="absolute w-1/3 object-cover mt-10 invisible lg:visible"/>
+        <img src={infonight} alt="SCD" className="absolute w-1/3 object-cover mt-10 invisible lg:visible"/>
       </div>
       <div className="mt-10 lg:mt-0 text-center col-span-5 lg:col-span-3 flex flex-col justify-between">
         <hr></hr>
