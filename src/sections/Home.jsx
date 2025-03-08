@@ -81,11 +81,11 @@ export default function Home() {
         initial="initial"
         animate="animate"
         variants={text_slide_in}
-        transition={{ duration: 0.2, delay: 0.4 }}
+        transition={{ duration: 0.75, delay: 0.5 }}
       >
         <p className="text-3xl md:text-4xl lg:text-6xl font-medium">
           We are <span className="text-primary">Quant</span> @ <span className="text-orange-500">Illinois</span>, a student-run
-          quantitative finance and high frequency trading organization at the University of Illinois Urbana-Champaign.
+          quantitative finance and high frequency trading organization at the University of Illinois at Urbana-Champaign.
         </p>
       </motion.div>
     </div>
