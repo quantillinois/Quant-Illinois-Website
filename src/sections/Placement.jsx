@@ -4,7 +4,7 @@ import { MdArrowForwardIos, MdArrowBackIos } from "react-icons/md";
 
 import imc from '../assets/companies/imc.png'
 import citadel from '../assets/companies/citadel.png'
-import jump from '../assets/companies/jump.png'
+import jump from '../assets/companies/jump.svg'
 import optiver from '../assets/companies/optiver.png'
 import akuna from '../assets/companies/akuna.png'
 import millenium from '../assets/companies/millenium.png'

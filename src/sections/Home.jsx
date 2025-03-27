@@ -65,12 +65,13 @@ export default function Home() {
               <p>Apply</p>
               <BsArrowRight className="-rotate-45 mt-1"/>
             </a> */}
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLScRnzMc5rurnTm-KrG8Nfz5GIYYASH4_ZeZVYUtsQYLUo7rIw/viewform?usp=dialog" className="flex text-2xl mr-7 hover:border-b-2 duration-150 border-black">
-              <p>Trading Competition Application</p>
+            <a href="/trading-competition" className="flex text-2xl mr-7 hover:border-b-2 duration-150 border-black">
+              <p>Trading Competition Information</p>
               <BsArrowRight className="-rotate-45 mt-1"/>
             </a>
             <a href="/trading" className="flex text-2xl mr-7 hover:border-b-2 duration-150 border-black">
               <p>Mock Trading</p>
+              <BsArrowRight className="-rotate-45 mt-1"/>
             </a>
             <a href="https://discord.gg/xnjdcgteKR" target="_blank" rel="noreferrer">
               <BsDiscord className="text-4xl hover:text-primary duration-200" />
