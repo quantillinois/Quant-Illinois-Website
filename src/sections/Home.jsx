@@ -1,6 +1,7 @@
 import logo from "../assets/full-logo.png";
 // import Navbar from "../HomePageComponents/NavbarComponents/Navbar";
-import { BsDiscord, BsArrowRight } from 'react-icons/bs';
+import { BsDiscord, BsArrowRight, BsTrophy, BsGraphUpArrow, BsGraphUp} from 'react-icons/bs';
+
 
 import { motion } from "framer-motion";
 import React, { useState, useEffect, useRef } from 'react'
@@ -65,13 +66,13 @@ export default function Home() {
               <p>Apply</p>
               <BsArrowRight className="-rotate-45 mt-1"/>
             </a> */}
-            <a href="/trading-competition" className="flex text-2xl mr-7 hover:border-b-2 duration-150 border-black">
+            <a href="/trading-competition" className="relative flex text-2xl mr-7 duration-150 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-[2px] before:bg-black before:transition-all before:duration-300 hover:before:w-full before:origin-left hover:before:origin-right">
               <p>Trading Competition Information</p>
-              <BsArrowRight className="-rotate-45 mt-1"/>
+              <BsTrophy className="mt-1 ml-2"/>
             </a>
-            <a href="/trading" className="flex text-2xl mr-7 hover:border-b-2 duration-150 border-black">
+            <a href="/trading" className="relative flex text-2xl mr-7 duration-150 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-[2px] before:bg-black before:transition-all before:duration-300 hover:before:w-full before:origin-left hover:before:origin-right">
               <p>Mock Trading</p>
-              <BsArrowRight className="-rotate-45 mt-1"/>
+              <BsGraphUp className="mt-1.5 ml-2"/>
             </a>
             <a href="https://discord.gg/xnjdcgteKR" target="_blank" rel="noreferrer">
               <BsDiscord className="text-4xl hover:text-primary duration-200" />
