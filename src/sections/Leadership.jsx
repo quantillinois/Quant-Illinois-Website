@@ -20,7 +20,15 @@ function Leadership() {
         <LeadershipCard img={nishk} name="Nishk Patel" position="President" link="https://www.linkedin.com/in/nishk-patel/"/>
         <LeadershipCard img={ian} name="Ian Sornson" position="Software" link="https://www.linkedin.com/in/ian-sornson/"/>
         <LeadershipCard img={abhay} name="Abhay Benoy" position="Software" link="https://www.linkedin.com/in/abhay-benoy/"/>
-        <LeadershipCard img={julie} name="Julie Lima" position="Software" link="https://www.linkedin.com/in/julielima/"/>
+          <div className="flex flex-col items-center">
+            <LeadershipCard
+              img={julie}
+              name="Julie Lima"
+              position="Software"
+              link="https://www.linkedin.com/in/julielima/"
+            />
+            <span className="text-white text-xs mt-1">email reviewer</span>
+          </div>
         <LeadershipCard img={james} name="James Xu" position="Software" link="https://www.linkedin.com/in/xu-james/"/>
         {/* <div className='hidden lg:block'></div> */}
         <LeadershipCard img={eric} name="Eric Zhu" position="Trading" link="https://www.linkedin.com/in/zhueric2004/" />
