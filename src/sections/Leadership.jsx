@@ -20,7 +20,7 @@ function Leadership() {
         <LeadershipCard img={nishk} name="Nishk Patel" position="President" link="https://www.linkedin.com/in/nishk-patel/" secretText = "fake pres"/>
         <LeadershipCard img={ian} name="Ian Sornson" position="Software" link="https://www.linkedin.com/in/ian-sornson/"  secretText = "thanks for the car"/>
         <LeadershipCard img={abhay} name="Abhay Benoy" position="Software" link="https://www.linkedin.com/in/abhay-benoy/" secretText="impeached"/>
-        <LeadershipCard img={julie} name="Julie Lima" position="Software" link="https://www.linkedin.com/in/julielima/" secretText="rofl"/>
+        <LeadershipCard img={julie} name="Julie Lima" position="Software" link="https://www.linkedin.com/in/julielima/" secretText="yapper"/>
         <LeadershipCard img={james} name="James Xu" position="Software" link="https://www.linkedin.com/in/xu-james/" secretText="hacker/vibecoder"/>
         {/* <div className='hidden lg:block'></div> */}
         <LeadershipCard img={eric} name="Eric Zhu" position="Trading" link="https://www.linkedin.com/in/zhueric2004/" secretText= "darius"/>
