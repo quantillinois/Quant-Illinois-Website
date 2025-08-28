@@ -10,6 +10,7 @@ import nishk from "../assets/people/leadership/nishk.jpg"
 import zachary from "../assets/people/leadership/zachary.jpeg"
 import anuraag from "../assets/people/leadership/anuraag.jpeg"
 import james from "../assets/people/leadership/james.jpg"
+import Su from "../assets/people/leadership/Su.jpg"
 
 
 function Leadership() {
@@ -19,7 +20,7 @@ function Leadership() {
       <div className='grid grid-cols-2 grid-rows-2 md:grid-cols-3 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-1 w-full gap-y-8'> 
         <LeadershipCard img={nishk} name="Nishk Patel" position="President" link="https://www.linkedin.com/in/nishk-patel/" secretText = "fake pres"/>
         <LeadershipCard img={ian} name="Ian Sornson" position="Software" link="https://www.linkedin.com/in/ian-sornson/"  secretText = "thanks for the car"/>
-        <LeadershipCard img={abhay} name="Abhay Benoy" position="Software" link="https://www.linkedin.com/in/abhay-benoy/" secretText="impeached"/>
+        <LeadershipCard img={Su} name="Chris Suarez" position="Software" link="https://www.linkedin.com/in/christopher-suarez-44021a243/" secretText="Web-dev"/>
         <LeadershipCard img={julie} name="Julie Lima" position="Software" link="https://www.linkedin.com/in/julielima/" secretText="yapper"/>
         <LeadershipCard img={james} name="James Xu" position="Software" link="https://www.linkedin.com/in/xu-james/" secretText="hacker/vibecoder"/>
         {/* <div className='hidden lg:block'></div> */}

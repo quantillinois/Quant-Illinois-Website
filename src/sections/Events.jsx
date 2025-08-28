@@ -3,7 +3,7 @@ import { eventData } from "../assets/eventData";
 import { FaLocationDot } from "react-icons/fa6";
 
 
-function EventCard({datetime, title, location, description, rsvpLink}) {
+function EventCard({datetime, title, location, description, rsvpLink, msg}) {
   return (
     <Card className="rounded-2xl my-4 mx-5 transform hover:translate-y-[-0.5rem] duration-200">
         <p className="text-sm text-gray-600 font-bold">{datetime}</p>
@@ -15,11 +15,12 @@ function EventCard({datetime, title, location, description, rsvpLink}) {
           <FaLocationDot className="text-lg mb-3 sm:mb-0 mt-1 mr-1 text-primary"/>
           <p>{location}</p>
           </span>
-          {rsvpLink ? <Button href={rsvpLink} >Apply</Button> : <div className="h-10"></div>}
+          {rsvpLink ? <Button href={rsvpLink} >{msg}</Button> : <div className="h-10"></div>}
         </div>
     </Card>
   );
 }
+
 
 export default function Events() {
   return (

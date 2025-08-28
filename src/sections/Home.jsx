@@ -66,10 +66,10 @@ export default function Home() {
               <p>Apply</p>
               <BsArrowRight className="-rotate-45 mt-1"/>
             </a> */}
-            <a href="/trading-competition" className="relative flex text-2xl mr-7 duration-150 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-[2px] before:bg-black before:transition-all before:duration-300 hover:before:w-full before:origin-left hover:before:origin-right">
+            {/* <a href="/trading-competition" className="relative flex text-2xl mr-7 duration-150 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-[2px] before:bg-black before:transition-all before:duration-300 hover:before:w-full before:origin-left hover:before:origin-right">
               <p>Trading Competition Information</p>
               <BsTrophy className="mt-1 ml-2"/>
-            </a>
+            </a> */}
             <a href="/trading" className="relative flex text-2xl mr-7 duration-150 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-[2px] before:bg-black before:transition-all before:duration-300 hover:before:w-full before:origin-left hover:before:origin-right">
               <p>Mock Trading</p>
               <BsGraphUp className="mt-1.5 ml-2"/>
