@@ -23,7 +23,7 @@ function Leadership() {
         <LeadershipCard img={ian} name="Ian Sornson" position="Software" link="https://www.linkedin.com/in/ian-sornson/"  secretText = "thanks for the car"/>
         <LeadershipCard img={Su} name="Chris Suarez" position="Software" link="https://www.linkedin.com/in/christopher-suarez-44021a243/" secretText="Web-dev"/>
         <LeadershipCard img={julie} name="Julie Lima" position="Software" link="https://www.linkedin.com/in/julielima/" secretText="yapper"/>
-        <LeadershipCard img={vani} name="James Xu" position="Software" link=" https://www.linkedin.com/in/vani-ramesh/" secretText=""/>
+        <LeadershipCard img={vani} name="Vani Ramesh" position="Software" link=" https://www.linkedin.com/in/vani-ramesh/" secretText=""/>
         {/* <div className='hidden lg:block'></div> */}
         <LeadershipCard img={eric} name="Eric Zhu" position="Trading" link="https://www.linkedin.com/in/zhueric2004/" secretText= "darius"/>
         <LeadershipCard img={john} name="John Zammit" position="Trading" link="https://www.linkedin.com/in/johnchristopherzammit/"  secretText = "64 bit"/>
