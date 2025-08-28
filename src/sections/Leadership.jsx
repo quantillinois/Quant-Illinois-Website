@@ -11,6 +11,7 @@ import zachary from "../assets/people/leadership/zachary.jpeg"
 import anuraag from "../assets/people/leadership/anuraag.jpeg"
 import james from "../assets/people/leadership/james.jpg"
 import Su from "../assets/people/leadership/Su.jpg"
+import vani from "../assets/people/leadership/vani.jpeg"
 
 
 function Leadership() {
@@ -22,7 +23,7 @@ function Leadership() {
         <LeadershipCard img={ian} name="Ian Sornson" position="Software" link="https://www.linkedin.com/in/ian-sornson/"  secretText = "thanks for the car"/>
         <LeadershipCard img={Su} name="Chris Suarez" position="Software" link="https://www.linkedin.com/in/christopher-suarez-44021a243/" secretText="Web-dev"/>
         <LeadershipCard img={julie} name="Julie Lima" position="Software" link="https://www.linkedin.com/in/julielima/" secretText="yapper"/>
-        <LeadershipCard img={james} name="James Xu" position="Software" link="https://www.linkedin.com/in/xu-james/" secretText="hacker/vibecoder"/>
+        <LeadershipCard img={vani} name="James Xu" position="Software" link=" https://www.linkedin.com/in/vani-ramesh/" secretText=""/>
         {/* <div className='hidden lg:block'></div> */}
         <LeadershipCard img={eric} name="Eric Zhu" position="Trading" link="https://www.linkedin.com/in/zhueric2004/" secretText= "darius"/>
         <LeadershipCard img={john} name="John Zammit" position="Trading" link="https://www.linkedin.com/in/johnchristopherzammit/"  secretText = "64 bit"/>
