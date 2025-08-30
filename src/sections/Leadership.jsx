@@ -13,13 +13,14 @@ import james from "../assets/people/leadership/james.jpg"
 import Su from "../assets/people/leadership/Su.jpg"
 import vani from "../assets/people/leadership/vani.jpeg"
 import benz from "../assets/people/leadership/benZ.jpg"
+import wu from "../assets/people/leadership/wu.jpg"
 
 
 function Leadership() {
   return (
     <div className='mt-16 flex flex-col items-center w-5/6 mx-auto'>
       <h1 className="text-center text-7xl mb-10 font-medium text-primary">Leadership</h1>
-      <div className='grid grid-cols-2 grid-rows-2 md:grid-cols-3 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-1 w-full gap-y-8'> 
+      <div className='grid grid-cols-2 grid-rows-2 md:grid-cols-3 md:grid-rows-2 lg:grid-cols-5 lg:grid-rows-2 w-full gap-y-8'> 
         <LeadershipCard img={nishk} name="Nishk Patel" position="President" link="https://www.linkedin.com/in/nishk-patel/" secretText = "fake pres"/>
         <LeadershipCard img={ian} name="Ian Sornson" position="Software" link="https://www.linkedin.com/in/ian-sornson/"  secretText = "thanks for the car"/>
         <LeadershipCard img={Su} name="Chris Suarez" position="Software" link="https://www.linkedin.com/in/christopher-suarez-44021a243/" secretText="Web-dev"/>
@@ -30,6 +31,7 @@ function Leadership() {
         <LeadershipCard img={john} name="John Zammit" position="Trading" link="https://www.linkedin.com/in/johnchristopherzammit/"  secretText = "64 bit"/>
         <LeadershipCard img={benz} name="Ben Zhao" position="Trading" link="http://linkedin.com/in/benjaminzhao654" secretText = ""/>
         <LeadershipCard img={anuraag} name="Anuraag Aravindan" position="Trading" link="https://www.linkedin.com/in/anuraag-aravindan/" secretText = "our spy"/>
+        <LeadershipCard img={wu} name="Chris Wu" position="Trading" link="https://www.linkedin.com/in/chris-wu-3845262aa/" secretText = ""/>
       </div>
     </div>
   );
