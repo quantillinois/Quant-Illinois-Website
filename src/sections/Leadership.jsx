@@ -12,6 +12,7 @@ import anuraag from "../assets/people/leadership/anuraag.jpeg"
 import james from "../assets/people/leadership/james.jpg"
 import Su from "../assets/people/leadership/Su.jpg"
 import vani from "../assets/people/leadership/vani.jpeg"
+import benz from "../assets/people/leadership/benZ.jpg"
 
 
 function Leadership() {
@@ -27,7 +28,7 @@ function Leadership() {
         {/* <div className='hidden lg:block'></div> */}
         <LeadershipCard img={eric} name="Eric Zhu" position="Trading" link="https://www.linkedin.com/in/zhueric2004/" secretText= "darius"/>
         <LeadershipCard img={john} name="John Zammit" position="Trading" link="https://www.linkedin.com/in/johnchristopherzammit/"  secretText = "64 bit"/>
-        <LeadershipCard img={zachary} name="Zachary Zhang" position="Trading" link="https://www.linkedin.com/in/zachary-zhang-8772b1204/" secretText = "whackary"/>
+        <LeadershipCard img={benz} name="Ben Zhao" position="Trading" link="http://linkedin.com/in/benjaminzhao654" secretText = ""/>
         <LeadershipCard img={anuraag} name="Anuraag Aravindan" position="Trading" link="https://www.linkedin.com/in/anuraag-aravindan/" secretText = "our spy"/>
       </div>
     </div>
