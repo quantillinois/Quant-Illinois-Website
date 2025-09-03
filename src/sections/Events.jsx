@@ -23,6 +23,7 @@ function EventCard({datetime, title, location, description, rsvpLink, msg}) {
 
 
 export default function Events() {
+  return  // Events are disabled when nothing to show. 
   return (
     <div className="h-auto px-5 lg:px-20 py-10 mx-auto bg-gradient-to-r from-[#48d1cc] to-blue-600 mt-10">
       <h1 className="text-center text-7xl mb-10 font-medium text-white">Events</h1>
