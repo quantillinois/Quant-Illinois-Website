@@ -21,17 +21,16 @@ export default function Sponsors() {
       
       <div className="bg-sky-100 py-10 mx-5 lg:mx-20 rounded-lg">
         <h2 className="text-left text-4xl font-medium text-sky-700 pl-10">Platinum</h2>
-          <div className="grid grid-rows-1 grid-cols-3 lg:grid-cols-3 lg:grid-rows-1 justify-center gap-5 lg:gap-10 px-10 lg:px-24 py-10">          
-          <a href="https://www.imc.com/us/" className="object-contain my-auto"><img src={imc} alt="IMC Trading"/></a>
+          <div className="grid grid-rows-1 grid-cols-2 lg:grid-cols-2 lg:grid-rows-1 justify-center gap-5 lg:gap-10 px-10 lg:px-24 py-10">          
           <a href="https://optiver.com/" className="object-contain my-auto"><img src={optiver} alt="Optiver" /></a>
           <a href="https://www.hudsonrivertrading.com/"className="object-contain my-auto" ><img src={hrt} alt="Hudson River Trading" /></a>
-
         </div>
       </div>
       
       <div className="bg-orange-200 py-10 mx-5 lg:mx-20 mt-10 rounded-lg">
         <h2 className="text-left text-4xl font-medium text-orange-700 pl-10">Gold</h2>
-        <div className="grid grid-rows-1 grid-cols-2 lg:grid-cols-2 lg:grid-rows-1 justify-center gap-5 lg:gap-10 px-10 lg:px-24 py-10">          
+        <div className="grid grid-rows-1 grid-cols-3 lg:grid-cols-3 lg:grid-rows-1 justify-center gap-5 lg:gap-10 px-10 lg:px-24 py-10">     
+        <a href="https://www.imc.com/us/" className="object-contain my-auto"><img src={imc} alt="IMC Trading"/></a>     
         <a href="https://www.jumptrading.com/" className="object-contain my-auto"><img src={jump} alt="Jump Trading" /></a>
         <a href="https://tower-research.com/" className="object-contain my-auto"><img src={tower} alt="Tower Research" /></a>
         </div>
