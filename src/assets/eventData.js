@@ -8,17 +8,17 @@ export const eventData = [
   //   msg: "Discord"
   // },
     {
-    datetime: "Monday, Jan 26th 2026 - 11:59 PM CST",
-    title: "Spring 2026 Trading Divison Application",
-    description: "Apply to join the trading division of Quant @ Illinois for the Spring 2026 semester",
-    rsvpLink: "https://forms.gle/Y3aUa4ZjQ45fdPYr5",
+    datetime: " March, 13th 2026 - 11:59 PM CST",
+    title: "Spring 2026 Trading Competition ",
+    description: "Join us for TWO full days of competitive trading games, networking with top firms, and company-sponsored events. April(18th-19th)",
+    rsvpLink: "https://forms.gle/GW2HoAz8AdkeE4Dk6",
     msg: "Apply"
-  },
-    {
-    datetime: "Monday, Jan 26th 2026 - 11:59 PM CST",
-    title: "Spring 2026 Software Divison Application",
-    description: "Apply to join the Software division of Quant @ Illinois for the Spring 2026 semester",
-    rsvpLink: "https://forms.gle/SF1vyMyYoNxLaeCt8",
-    msg: "Apply"
-  },
+  }
+  //   {
+  //   datetime: "Monday, Jan 26th 2026 - 11:59 PM CST",
+  //   title: "Spring 2026 Software Divison Application",
+  //   description: "Apply to join the Software division of Quant @ Illinois for the Spring 2026 semester",
+  //   rsvpLink: "https://forms.gle/SF1vyMyYoNxLaeCt8",
+  //   msg: "Apply"
+  // },
 ]
