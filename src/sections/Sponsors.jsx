@@ -8,6 +8,7 @@ import five from '../assets/companies/five.svg'
 import jump from '../assets/companies/jump.svg'
 import omc from '../assets/companies/omc.png'
 import sig from '../assets/companies/sig.png'
+import akuna from '../assets/companies/akuna_capital.png'
 import belvedere from '../assets/companies/belvedere.png'
 import citadel from '../assets/companies/citadel.png'
 import tower from '../assets/companies/tower.png'
@@ -52,9 +53,10 @@ export default function Sponsors() {
       
       <div className="bg-green-100 py-10 mx-5 lg:mx-20 mt-10 rounded-lg">
       <h2 className="text-left text-4xl font-medium text-zinc-700 pl-10">Competition Sponsors</h2>
-      <div className="grid grid-rows-2 grid-cols-2 lg:grid-cols-2 lg:grid-rows-1 justify-center gap-5 lg:gap-10 px-10 lg:px-24 py-10">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 lg:gap-10 px-10 lg:px-24 py-10 justify-items-center items-center">
           <a href="https://www.oldmissioncapital.com/" className="object-contain my-auto"><img src={omc} alt="OMC Markets" /></a>
           <a href="https://www.sig.com/" className="object-contain my-auto"><img src={sig} alt="Susquehanna International Group" /></a>
+          <a href="https://www.akunacapital.com/" className="object-contain my-auto"><img src={akuna} alt="Akuna Capital" className="object-contain scale-[1.1] sm:scale-[1.15]" /></a>
         </div>
       </div>
       
