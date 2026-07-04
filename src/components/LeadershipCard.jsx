@@ -7,7 +7,7 @@ function LeadershipCard({ img, name, position, link, secretText }) {
         <img 
           src={img} 
           alt={name}
-          className="object-fit md:w-48 md:h-48 rounded-full border-2 hover:border-primary hover:p-1 transition-all duration-500 ease-in-out cursor-pointer"
+          className="w-32 h-32 md:w-48 md:h-48 object-cover object-center rounded-full border-2 hover:border-primary hover:p-1 transition-all duration-500 ease-in-out cursor-pointer"
         />
       </a>
       <h1 className="text-center text-xl md:text-3xl mt-4">{name}</h1>
