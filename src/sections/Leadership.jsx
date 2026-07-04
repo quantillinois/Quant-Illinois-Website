@@ -22,7 +22,7 @@ function Leadership() {
         <LeadershipCard img={andrew} name="Andrew Di" position="Trading" link="https://www.linkedin.com/in/andrew-di/" secretText="poker shark"/>
         <LeadershipCard img={eric} name="Eric Wang" position="Trading" link="https://www.linkedin.com/in/eric-wang-ab3009326/" secretText="killua"/>
         <LeadershipCard img={josh} name="Josh Hemingson" position="Trading" link="https://www.linkedin.com/in/josh-hemingson/" secretText="imc savior"/>
-        <LeadershipCard img={melinda} name="Melinda Yuan" position="Trading" link="https://www.linkedin.com/in/melindayuuan/" secretText="game night host 🐐"/>
+        <LeadershipCard img={melinda} name="Melinda Yuan" position="Trading" link="https://www.linkedin.com/in/melindayuuan/" secretText="game night host goat"/>
         <LeadershipCard img={ec} name="Eric Chen" position="Trading" link="https://www.linkedin.com/in/eric-ec/" secretText="tft gm"/>
         <LeadershipCard img={matt} name="Matthew Fakler" position="Trading" link="https://www.linkedin.com/in/matthewfakler/" secretText="discovery day farmer"/>
         <LeadershipCard img={achoi} name="Andrew Choi" position="Software" link="https://www.linkedin.com/in/andrewchoij/" secretText="d1 larp"/>
