@@ -1,6 +1,6 @@
 import logo from "../assets/full-logo.png";
 // import Navbar from "../HomePageComponents/NavbarComponents/Navbar";
-import { BsDiscord, BsArrowRight, BsTrophy, BsGraphUpArrow, BsGraphUp} from 'react-icons/bs';
+import { BsDiscord, BsArrowRight, BsTrophy, BsGraphUpArrow} from 'react-icons/bs';
 
 
 import { motion } from "framer-motion";
@@ -70,10 +70,6 @@ export default function Home() {
               <p>Trading Competition Information</p>
               <BsTrophy className="mt-1 ml-2"/>
             </a> */}
-            <a href="/trading" className="relative flex text-2xl mr-7 duration-150 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-[2px] before:bg-black before:transition-all before:duration-300 hover:before:w-full before:origin-left hover:before:origin-right">
-              <p>Mock Trading</p>
-              <BsGraphUp className="mt-1.5 ml-2"/>
-            </a>
             <a href="https://discord.gg/xnjdcgteKR" target="_blank" rel="noreferrer">
               <BsDiscord className="text-4xl hover:text-primary duration-200" />
             </a>
