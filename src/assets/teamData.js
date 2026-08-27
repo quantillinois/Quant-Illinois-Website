@@ -28,6 +28,7 @@ export const teamData = [
       "Saavan Kiran",
       "Winston Weng"
     ],
+    formLink: "https://forms.gle/aucwqb38fjiU8L2XA",
   },
   {
     textColor: "text-[#F5821E]",
@@ -58,6 +59,7 @@ export const teamData = [
       "Taran Polavarapu",
       "Teja Koripella"
     ],
+    formLink: "https://forms.gle/C3xQ1msx1v3UxHy79",
   },
   {
     textColor: "text-[#A31F34]",

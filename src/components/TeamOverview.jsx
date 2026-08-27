@@ -36,7 +36,7 @@ export default function TeamOverview({data}) {
           <p className="text-2xl my-auto">Applications Closed</p>
           }
           { data.applicationStatus ?
-          <a className={"rounded-lg p-3 cursor-pointer " + data.bgColor} href="https://forms.gle/veU465tnB88JgnV16">
+          <a className={"rounded-lg p-3 cursor-pointer " + data.bgColor} href={data.formLink}>
           <BsArrowRight className="text-5xl hover:-rotate-45 duration-200"/>
           </a>
           :
