@@ -7,10 +7,10 @@ import ec from "../assets/people/leadership/ec.png"
 import eric from "../assets/people/leadership/eric.png"
 import josh from "../assets/people/leadership/josh.png"
 import kartik from "../assets/people/leadership/kartik.png"
-import matt from "../assets/people/leadership/matt.png"
+import matt from "../assets/people/leadership/fakler.png"
 import anuraag from "../assets/people/leadership/anuraag.jpeg"
 import jj from "../assets/people/leadership/jj.png"
-import melinda from "../assets/people/leadership/melinda.png"
+import melinda from "../assets/people/leadership/melinda.jpg"
 
 
 function Leadership() {
