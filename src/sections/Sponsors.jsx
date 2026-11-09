@@ -1,64 +1,64 @@
 import imc from '../assets/companies/imc.png'
-import drw from '../assets/companies/drw.png'
+import deShaw from '../assets/companies/de-shaw.png'
 import jane from '../assets/companies/jane.png'
-import peak6 from '../assets/companies/peak6.png'
 import optiver from '../assets/companies/optiver.png'
 import hrt from '../assets/companies/hrt.png'
-import five from '../assets/companies/five.svg'
 import jump from '../assets/companies/jump.svg'
 import omc from '../assets/companies/omc.png'
 import sig from '../assets/companies/sig.png'
 import akuna from '../assets/companies/akuna_capital.png'
-import belvedere from '../assets/companies/belvedere.png'
 import citadel from '../assets/companies/citadel.png'
 import tower from '../assets/companies/tower.png'
 
-const logoClass = "object-contain block h-20 w-auto";
+const sponsorGroups = [
+  ['Platinum', [
+    ['Hudson River Trading', hrt, 'https://www.hudsonrivertrading.com/'],
+    ['Optiver', optiver, 'https://optiver.com/'],
+  ]],
+  ['Gold', [
+    ['IMC Trading', imc, 'https://www.imc.com/us/'],
+    ['Jump Trading', jump, 'https://www.jumptrading.com/'],
+    ['Citadel/Citadel Securities', citadel, 'https://www.citadel.com/'],
+    ['Tower Research', tower, 'https://tower-research.com/'],
+  ]],
+  ['Silver', [
+    ['D. E. Shaw', deShaw, 'https://www.deshaw.com/'],
+    ['Jane Street', jane, 'https://www.janestreet.com/'],
+  ]],
+  ['Competition Sponsors', [
+    ['Akuna Capital', akuna, 'https://www.akunacapital.com/'],
+    ['OMC Markets', omc, 'https://www.oldmissioncapital.com/'],
+    ['Susquehanna International Group', sig, 'https://www.sig.com/'],
+  ]],
+]
 
-export default function Sponsors() {
+export default function Sponsors({ preview = false }) {
+  const Heading = preview ? 'h2' : 'h1'
+  const TierHeading = preview ? 'h3' : 'h2'
+
   return (
-    <div className="h-auto py-8">
-      <h1 className="text-center text-7xl mb-10 font-medium text-primary">Sponsors</h1>
-      
-      <div className="bg-sky-100 py-10 mx-5 lg:mx-20 rounded-lg">
-        <h2 className="text-left text-4xl font-medium text-sky-700 pl-10">Platinum</h2>
-          <div className="grid grid-rows-1 grid-cols-2 lg:grid-cols-2 lg:grid-rows-1 justify-center gap-5 lg:gap-10 px-10 lg:px-24 py-10">          
-          <a href="https://www.hudsonrivertrading.com/"className="object-contain my-auto" ><img src={hrt} alt="Hudson River Trading" /></a>  
-          <a href="https://optiver.com/" className="object-contain my-auto"><img src={optiver} alt="Optiver" /></a>
-        </div>
+    <section id="sponsors" className="partners section" aria-labelledby="sponsors-title">
+      <div className="wrap">
+        <Heading id="sponsors-title" className="page-title sponsors-title">Our sponsors</Heading>
+        {sponsorGroups.map(([tier, sponsors]) => (
+          <div className="sponsor-row" key={tier}>
+            <TierHeading className="sponsor-tier">{tier}</TierHeading>
+            <ul className="sponsor-logos">
+              {sponsors.map(([name, logo, href]) => (
+                <li key={name}>
+                  <a href={href}>
+                    <img src={logo} alt={name} loading="lazy" />
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+        <p id="sponsorship-contact" className="sponsors-contact">
+          <span>Interested in becoming a sponsor?</span>
+          <a href="mailto:corporate-outreach@quantillinois.com">corporate-outreach@quantillinois.com</a>
+        </p>
       </div>
-      
-      <div className="bg-orange-200 py-10 mx-5 lg:mx-20 mt-10 rounded-lg">
-        <h2 className="text-left text-4xl font-medium text-orange-700 pl-10">Gold</h2>
-        <div className="grid grid-rows-1 grid-cols-3 lg:grid-cols-3 lg:grid-rows-1 justify-center gap-5 lg:gap-10 px-10 lg:px-24 py-10">     
-        <a href="https://www.imc.com/us/" className="object-contain my-auto"><img src={imc} alt="IMC Trading"/></a>     
-        <a href="https://www.jumptrading.com/" className="object-contain my-auto"><img src={jump} alt="Jump Trading" /></a>
-        <a href="https://tower-research.com/" className="object-contain my-auto"><img src={tower} alt="Tower Research" /></a>
-        </div>
-      </div>
-      
-      <div className="bg-zinc-300 py-10 mx-5 lg:mx-20 mt-10 rounded-lg">
-        <h2 className="text-left text-4xl font-medium text-zinc-700 pl-10">Silver</h2>
-        <div className="grid grid-rows-2 grid-cols-3 lg:grid-cols-3 lg:grid-rows-2  justify-center gap-5 lg:gap-10 px-10 lg:px-24 py-10">
-          <a href="https://www.belvederetrading.com/" className="object-contain my-auto"><img src={belvedere} alt="Belvedere Trading" /></a>
-          <a href ="https://www.citadel.com/" className="object-contain my-auto"><img src={citadel} alt="Citadel/Citadel Securities"/></a>
-          <a href="https://www.drw.com/" className="flex items-center justify-center"><img src={drw} alt="DRW" className="object-contain block h-150 w-auto" /></a>
-          <a href="https://fiverings.com/" className="object-contain my-auto"><img src={five} alt="Five Rings" /></a>
-          <a href="https://www.janestreet.com/" className="object-contain my-auto"><img src={jane} alt="Jane Street" /></a>
-          <a href="https://peak6.com/" className="object-contain my-auto"><img src={peak6} alt="Peak6" /></a>
-        </div>
-      </div>
-      
-      <div className="bg-green-100 py-10 mx-5 lg:mx-20 mt-10 rounded-lg">
-      <h2 className="text-left text-4xl font-medium text-zinc-700 pl-10">Competition Sponsors</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 lg:gap-10 px-10 lg:px-24 py-10 justify-items-center items-center">
-          <a href="https://www.akunacapital.com/" className="object-contain my-auto"><img src={akuna} alt="Akuna Capital" className="object-contain scale-[1.1] sm:scale-[1.15]" /></a>
-          <a href="https://www.oldmissioncapital.com/" className="object-contain my-auto"><img src={omc} alt="OMC Markets" /></a>
-          <a href="https://www.sig.com/" className="object-contain my-auto"><img src={sig} alt="Susquehanna International Group" /></a>
-        </div>
-      </div>
-      
-      <h2 className="text-center text-md lg:text-xl font-medium mt-5">Interested in becoming a sponsor? Email us at <a className="text-secondary" href="mailto:corporate-outreach@quantillinois.com">corporate-outreach@quantillinois.com</a></h2>
-    </div>
+    </section>
   )
 }

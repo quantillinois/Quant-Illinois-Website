@@ -1,27 +1,18 @@
-import { useState } from 'react'
-import Home from './sections/Home'
-import Overview from './sections/Overview'
-import Leadership from './sections/Leadership'
-import Events from './sections/Events'
-import Placement from './sections/Placement'
-import Sponsors from './sections/Sponsors'
-import Divisions from './sections/Divisions'
+import { Outlet, useLocation } from 'react-router-dom'
+import SiteHeader from './components/SiteHeader'
 import Footer from './components/Footer'
 
-function App() {
+export default function App() {
+  const { pathname } = useLocation()
 
   return (
-    <div className='selection:bg-slate-300'>
-      <Home />
-      <Overview />
-      <Leadership />
-      <Events />
-      <Divisions />
-      <Placement />
-      <Sponsors />
+    <div className="site-shell">
+      <a className="skip-link" href="#main">Skip to content</a>
+      <SiteHeader home={pathname === '/'} />
+      <main id="main">
+        <Outlet />
+      </main>
       <Footer />
     </div>
   )
 }
-
-export default App

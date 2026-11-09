@@ -1,16 +1,27 @@
-import { BsDiscord, BsLinkedin, BsYoutube, BsInstagram, BsGithub } from 'react-icons/bs';
+import { BsDiscord, BsLinkedin, BsInstagram } from 'react-icons/bs'
+import { discord, instagram, linkedin } from '../assets/siteContent'
+import logo from '../assets/full-logo.png'
+
+const socials = [
+  ['Instagram', instagram, BsInstagram],
+  ['Discord', discord, BsDiscord],
+  ['LinkedIn', linkedin, BsLinkedin],
+]
 
 export default function Footer() {
-  let iconStyle = "text-xl lg:text-3xl mx-6 text-white hover:text-black duration-150"
   return (
-    <div className="flex justify-center bg-gradient-to-r from-[#48d1cc] to-blue-600 h-20 py-8">
-
-      <a href="https://discord.gg/xnjdcgteKR"><BsDiscord className={iconStyle} /></a>
-      <a href="https://www.linkedin.com/company/quantillinois/"><BsLinkedin className={iconStyle} /></a>
-      <a href="https://www.youtube.com/@quantillinois"><BsYoutube className={iconStyle} /></a>
-      <a href="https://www.instagram.com/quantillinois/"><BsInstagram className={iconStyle} /></a>
-      <a href="https://github.com/quantillinois/"><BsGithub className={iconStyle} /></a>
-
-    </div>
+    <footer className="site-footer">
+      <div className="wrap footer-inner">
+        <div>
+          <img src={logo} alt="Quant at Illinois" width="1876" height="478" />
+          <p>University of Illinois Urbana-Champaign</p>
+        </div>
+        <nav aria-label="Social media">
+          {socials.map(([name, href, Icon]) => (
+            <a href={href} key={name} aria-label={name}><Icon aria-hidden="true" /></a>
+          ))}
+        </nav>
+      </div>
+    </footer>
   )
 }
