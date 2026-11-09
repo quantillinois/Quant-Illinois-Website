@@ -1,0 +1,5 @@
+export const instagram = 'https://www.instagram.com/quantillinois/'
+export const optiverRecap = 'https://www.instagram.com/quantillinois/p/Ddmrmsrn_6v/'
+export const discord = 'https://discord.gg/xnjdcgteKR'
+export const linkedin = 'https://www.linkedin.com/company/quantillinois/'
+export const forumRecap = 'https://www.linkedin.com/posts/quantillinois_were-excited-to-share-that-we-placed-1st-activity-7458587795306070016-er7D'
