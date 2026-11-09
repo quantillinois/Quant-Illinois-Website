@@ -7,7 +7,7 @@ const divisions = [
   },
   {
     title: 'Software',
-    description: 'The Software division studies the infrastructure behind high-frequency trading, including CME’s iLink protocol, millimeter-wave networks, and co-located FPGA systems.',
+    description: 'The Software division studies the infrastructure behind high-frequency trading across different domains, from low-latency systems to network architecture.',
     activities: [
       'Study market microstructure by building and analyzing trading systems.',
       'Develop infrastructure for testing trading strategies.',
