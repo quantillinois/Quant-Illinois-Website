@@ -40,6 +40,11 @@ export default function Sponsors({ preview = false }) {
     <section id="sponsors" className="partners section" aria-labelledby="sponsors-title">
       <div className="wrap">
         <Heading id="sponsors-title" className="page-title sponsors-title">Our sponsors</Heading>
+        {!preview && (
+          <p className="sponsors-thanks">
+            Thank you to our 2026–2027 sponsors for their continued support!
+          </p>
+        )}
         {sponsorGroups.map(([tier, sponsors]) => (
           <div className="sponsor-row" key={tier}>
             <TierHeading className="sponsor-tier">{tier}</TierHeading>

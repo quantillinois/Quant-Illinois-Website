@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom'
 import { BsInstagram } from 'react-icons/bs'
 import uiucCompetition from '../assets/uiuc-trading-competition.jpg'
 import sportsDay from '../assets/sports-day-social.jpg'
+import gameNights from '../assets/game-nights.jpg'
+import paintballSocial from '../assets/paintball-social.jpg'
 import weeklyMeetings from '../assets/weekly-meetings.jpg'
 import citadelMysteryLeague from '../assets/citadel-mystery-league.jpg'
 import eventPortrait from '../assets/quant-event-portrait.jpg'
@@ -60,17 +62,39 @@ export default function Events({ preview = false }) {
               <img src={citadelMysteryLeague} alt="Four attendees posing below the Citadel Mystery League welcome slide" width="666" height="1000" loading="lazy" />
             </div>
             <div className="event-pin-caption">
-              <h3>Industry Events</h3>
+              <h3>External Events</h3>
               <p>Citadel Mystery League Challenge, in partnership with Quant at Illinois.</p>
             </div>
           </article>
+          {!preview && (
+            <article className="event-pin">
+              <div className="event-pin-art event-photo">
+                <img src={sportsDay} alt="Quant members playing a lawn game at Sports Day" width="1200" height="675" loading="lazy" />
+              </div>
+              <div className="event-pin-caption">
+                <h3>Sports Day Social</h3>
+                <p>Quant members got together for outdoor games.</p>
+              </div>
+            </article>
+          )}
+          {!preview && (
+            <article className="event-pin">
+              <div className="event-pin-art event-photo">
+                <img src={gameNights} alt="Quant members gathered around a Catan board at game night" width="1100" height="1100" loading="lazy" />
+              </div>
+              <div className="event-pin-caption">
+                <h3>Game Nights</h3>
+                <p>Members get together each week to play Catan, High Society, Liar’s Dice, and more.</p>
+              </div>
+            </article>
+          )}
           <article className="event-pin">
             <div className="event-pin-art event-photo">
-              <img src={sportsDay} alt="Quant members playing a lawn game at Sports Day" width="1200" height="675" loading="lazy" />
+              <img src={paintballSocial} alt="Quant members posing in front of the Saltfork Paintball mural" width="1200" height="800" loading="lazy" />
             </div>
             <div className="event-pin-caption">
-              <h3>Sports Day Social</h3>
-              <p>Quant members got together for outdoor games.</p>
+              <h3>Paintball Social</h3>
+              <p>Quant members got together for a paintball outing at Saltfork Paintball.</p>
             </div>
           </article>
           <article className="event-pin">

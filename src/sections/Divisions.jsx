@@ -18,6 +18,7 @@ const divisions = [
 
 export default function Divisions({ collapsible = false }) {
   const Division = collapsible ? 'details' : 'article'
+  const rosterNote = <p className="roster-note"><strong>Bold</strong> indicates members of the executive board.</p>
 
   return (
     <section id="divisions" className="divisions-band" aria-labelledby="divisions-title">
@@ -53,13 +54,14 @@ export default function Divisions({ collapsible = false }) {
                       {teamLeader.map((name) => <li key={name}><strong>{name}</strong></li>)}
                       {teamMembers.map((name) => <li key={name}>{name}</li>)}
                     </ul>
-                    <p className="roster-note"><strong>Bold</strong> indicates executive members.</p>
+                    {collapsible && rosterNote}
                   </div>
                 </div>
               </Division>
             )
           })}
         </div>
+        {!collapsible && rosterNote}
       </div>
     </section>
   )

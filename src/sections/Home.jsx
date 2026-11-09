@@ -48,7 +48,7 @@ export default function Home() {
       <div ref={field} className="contour-field" aria-hidden="true" />
       <div className="wrap contour-copy">
         <h1 id="home-title">
-          We are <span>Quant</span> @ <em>Illinois</em>, a student-run quantitative finance and high-frequency trading organization at the University of Illinois Urbana-Champaign.
+          We are <span>Quant</span> @ <em>Illinois</em>, a student-run quantitative finance and high frequency trading organization at the University of Illinois at Urbana-Champaign.
         </h1>
       </div>
     </section>
